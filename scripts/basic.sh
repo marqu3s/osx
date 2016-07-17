@@ -14,5 +14,11 @@ sudo scutil --set HostName $SYSTEM_NAME
 sudo scutil --set LocalHostName $SYSTEM_NAME
 sudo defaults write /Library/Preferences/SystemConfiguration/com.apple.smb.server NetBIOSName -string $SYSTEM_NAME
 
-printf "Setting default desktop image (3200x2000@300).\n"
-sudo cp settings/default_desktop.jpg $HOME/Documents/default.jpg
+#printf "Setting default desktop image (3200x2000@300).\n"
+#sudo cp settings/default_desktop.jpg $HOME/Documents/default.jpg
+
+# Apache httpd.conf
+sudo cp settings/httpd.conf /etc/apache2/httpd.conf
+
+# Vim vim.rc
+sudo cp settings/.vimrc ~/.vimrc

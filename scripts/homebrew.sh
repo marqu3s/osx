@@ -12,181 +12,187 @@ if ! command -v brew > /dev/null; then
 fi
 
 # Readline
-brew install readline
+# brew install readline
 
 # OpenSSL
-brew install openssl
-brew link --force openssl
+# brew install openssl
+# brew link --force openssl
 
 # OpenSSL OSX CA
-brew tap raggi/ale
-brew install openssl-osx-ca
+# brew tap raggi/ale
+# brew install openssl-osx-ca
 
 # GDBM
-brew install gdbm
+# brew install gdbm
 
 # libffi
-brew install libffi
+# brew install libffi
 
 # libyaml
-brew install libyaml
+# brew install libyaml
 
 # GPG
-brew install gpg
+# brew install gpg
 
 # GPG Agent
-brew install gpg-agent
+# brew install gpg-agent
 
 # Bash
-brew install bash
+# brew install bash
 
 # Bash Completion
-brew install bash-completion
+# brew install bash-completion
 
 # direnv
-brew install direnv
+# brew install direnv
 
 # Vim
-brew install vim
+# brew install vim
 
 # asciinema
-brew install asciinema
+# brew install asciinema
 
 # ShellCheck
-brew install shellcheck
+# brew install shellcheck
 
 # Colorized Cat
-brew install ccat
+# brew install ccat
 
 # tmux
-brew install tmux
-brew install reattach-to-user-namespace
+# brew install tmux
+# brew install reattach-to-user-namespace
 
 # Mosh
-brew install mobile-shell
+# brew install mobile-shell
 
 # Z
-brew install z
+# brew install z
 
 # Tree
-brew install tree
+# brew install tree
 
 # hr
-brew install hr
+# brew install hr
 
 # Git
-brew install git
+# brew install git
 
 # Mercurial
-brew install hg
+# brew install hg
 
 # CTags
-brew install ctags
+# brew install ctags
 
 # Tag
-brew install tag
+# brew install tag
 
 # Parallel
-brew install parallel
+# brew install parallel
 
 # Pigz
-brew install pigz
+# brew install pigz
 
 # JSON CLI Parser
-brew install jq
+# brew install jq
 
 # The Silver Searcher
-brew install the_silver_searcher
+# brew install the_silver_searcher
 
 # Htop
-brew install htop
+# brew install htop
 
 # Pipe Viewer
-brew install pv
+# brew install pv
 
 # HTTPie
-brew install httpie
+# brew install httpie
 
 # Ioping
-brew install ioping
+# brew install ioping
 
 # Network Grep
-brew install ngrep
+# brew install ngrep
 
 # Namebench
-brew install namebench
+# brew install namebench
 
 # ImageMagick
-brew install imagemagick
+# brew install imagemagick
 
 # Graphviz
-brew install graphviz
+# brew install graphviz
 
 # FLAC
-brew install flac
+# brew install flac
 
 # FFmpeg
-brew install ffmpeg
+# brew install ffmpeg
 
 # Gifsicle
-brew install gifsicle
+# brew install gifsicle
 
 # Node
 brew install node
 
 # Elm
-brew install elm
+# brew install elm
 
 # Phantom.js
-brew install phantomjs
+# brew install phantomjs
 
 # chruby
-brew install chruby
+# brew install chruby
 
 # Ruby Install
-brew install ruby-install
+# brew install ruby-install
 
 # Rust
-brew install rust
+# brew install rust
 
 # Go
-brew install go
+# brew install go
 
 # FZF
-brew install fzf
+# brew install fzf
 
 # Peco
-brew install peco
+# brew install peco
 
 # Nginx
-brew install nginx
+# brew install nginx
 
 # Memcached
-brew install memcached
+# brew install memcached
 
 # Redis
-brew install redis
+# brew install redis
 
 # PostgreSQL
-brew install postgresql
+# brew install postgresql
 
 # Elasticsearch
-brew install elasticsearch
+# brew install elasticsearch
 
 # pgcli
-brew install pgcli
+# brew install pgcli
 
 # Wry
-brew install wry
+# brew install wry
 
 # lnav
-brew install lnav
+# brew install lnav
 
 # cloc
-brew install cloc
+# brew install cloc
 
 # Terminal Notifier
-brew install terminal-notifier
+# brew install terminal-notifier
 
 # Watchman
-brew install watchman
+# brew install watchman
+
+# PHP 5.6
+brew tap homebrew/dupes
+brew tap homebrew/versions
+brew tap homebrew/homebrew-php
+brew install php56 php56-intl

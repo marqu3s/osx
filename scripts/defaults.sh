@@ -10,8 +10,8 @@ sudo nvram SystemAudioVolume=" "
 printf "System - Reveal IP address, hostname, OS version, etc. when clicking the login window clock\n"
 sudo defaults write /Library/Preferences/com.apple.loginwindow AdminHostInfo HostName
 
-printf "System - Disable automatic termination of inactive apps\n"
-defaults write NSGlobalDomain NSDisableAutomaticTermination -bool true
+#printf "System - Disable automatic termination of inactive apps\n"
+#defaults write NSGlobalDomain NSDisableAutomaticTermination -bool true
 
 printf "System - Expand save panel by default\n"
 defaults write NSGlobalDomain NSNavPanelExpandedStateForSaveMode -bool true
@@ -25,8 +25,8 @@ defaults write NSGlobalDomain NSWindowResizeTime -float 0.001
 printf "System - Disable window resume system-wide\n"
 defaults write NSGlobalDomain NSQuitAlwaysKeepsWindows -bool false
 
-printf "System - Disable auto-correct\n"
-defaults write NSGlobalDomain NSAutomaticSpellingCorrectionEnabled -bool false
+#printf "System - Disable auto-correct\n"
+#defaults write NSGlobalDomain NSAutomaticSpellingCorrectionEnabled -bool false
 
 printf "System - Disable smart quotes (not useful when writing code)\n"
 defaults write NSGlobalDomain NSAutomaticQuoteSubstitutionEnabled -bool false
@@ -92,14 +92,14 @@ defaults write com.apple.systemuiserver menuExtras -array \
   "/System/Library/CoreServices/Menu Extras/Bluetooth.menu" \
   "/System/Library/CoreServices/Menu Extras/AirPort.menu"
 
-printf "Dock - Remove all default app icons\n"
-defaults write com.apple.dock persistent-apps -array
+#printf "Dock - Remove all default app icons\n"
+#defaults write com.apple.dock persistent-apps -array
 
-printf "Dock - Automatically hide and show\n"
-defaults write com.apple.dock autohide -bool true
+#printf "Dock - Automatically hide and show\n"
+#defaults write com.apple.dock autohide -bool true
 
-printf "Dock - Remove the auto-hiding delay\n"
-defaults write com.apple.Dock autohide-delay -float 0
+#printf "Dock - Remove the auto-hiding delay\n"
+#defaults write com.apple.Dock autohide-delay -float 0
 
 printf "Dock - Don’t show Dashboard as a Space\n"
 defaults write com.apple.dock "dashboard-in-overlay" -bool true
@@ -110,8 +110,8 @@ defaults write NSGlobalDomain NSDocumentSaveNewDocumentsToCloud -bool false
 printf "Finder - Show the $HOME/Library folder\n"
 chflags nohidden $HOME/Library
 
-printf "Finder - Show hidden files\n"
-defaults write com.apple.finder AppleShowAllFiles -bool true
+#printf "Finder - Show hidden files\n"
+#defaults write com.apple.finder AppleShowAllFiles -bool true
 
 printf "Finder - Show filename extensions\n"
 defaults write NSGlobalDomain AppleShowAllExtensions -bool true
@@ -125,23 +125,23 @@ defaults write com.apple.finder ShowPathbar -bool true
 printf "Finder - Show status bar\n"
 defaults write com.apple.finder ShowStatusBar -bool true
 
-printf "Finder - Display full POSIX path as window title\n"
-defaults write com.apple.finder _FXShowPosixPathInTitle -bool true
+# printf "Finder - Display full POSIX path as window title\n"
+# defaults write com.apple.finder _FXShowPosixPathInTitle -bool true
 
 printf "Finder - Use list view in all Finder windows\n"
 defaults write com.apple.finder FXPreferredViewStyle -string "Nlsv"
 
-printf "Finder - Allow quitting via COMMAND+Q -- Doing so will also hide desktop icons\n"
-defaults write com.apple.finder QuitMenuItem -bool true
+#printf "Finder - Allow quitting via COMMAND+Q -- Doing so will also hide desktop icons\n"
+#defaults write com.apple.finder QuitMenuItem -bool true
 
-printf "Finder - Disable the warning before emptying the Trash\n"
-defaults write com.apple.finder WarnOnEmptyTrash -bool false
+#printf "Finder - Disable the warning before emptying the Trash\n"
+#defaults write com.apple.finder WarnOnEmptyTrash -bool false
 
 printf "Finder - Allow text selection in Quick Look\n"
 defaults write com.apple.finder QLEnableTextSelection -bool true
 
-printf "iOS Simulator - Symlink the iOS Simulator application\n"
-sudo ln -sf "/Applications/Xcode.app/Contents/Applications/iPhone Simulator.app" "/Applications/iOS Simulator.app"
+#printf "iOS Simulator - Symlink the iOS Simulator application\n"
+#sudo ln -sf "/Applications/Xcode.app/Contents/Applications/iPhone Simulator.app" "/Applications/iOS Simulator.app"
 
 printf "Safari - Set home page to 'about:blank' for faster loading\n"
 defaults write com.apple.Safari HomePage -string "about:blank"
