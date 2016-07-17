@@ -132,7 +132,8 @@ fi
 # brew install gifsicle
 
 # Node
-brew install node
+brew tap homebrew/versions
+brew install homebrew/versions/node4-lts
 
 # Elm
 # brew install elm

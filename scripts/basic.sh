@@ -4,9 +4,9 @@
 # Applies basic system settings.
 
 # EXECUTION
-printf "Cleaning default directories...\n"
-rm -rf $HOME/Documents/*
-rm -rf $HOME/Downloads/*
+# printf "Cleaning default directories...\n"
+# rm -rf $HOME/Documents/*
+# rm -rf $HOME/Downloads/*
 
 printf "Setting system label and name...\n"
 sudo scutil --set ComputerName $SYSTEM_LABEL
