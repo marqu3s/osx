@@ -198,4 +198,4 @@ brew install homebrew/versions/node5
 brew tap homebrew/dupes
 brew tap homebrew/versions
 brew tap homebrew/homebrew-php
-brew install php56 php56-intl
+brew install php56 php56-intl php56-pdo-dblib freetds
