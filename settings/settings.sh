@@ -9,9 +9,9 @@ set -o nounset # Exit, with error message, when attempting to use an undefined v
 set -o errexit # Abort script at first error, when a command exits with non-zero status.
 set -o pipefail # Returns exit status of the last command in the pipe that returned a non-zero return value.
 IFS=$'\n\t' # Defines how Bash splits words and iterates arrays. This defines newlines and tabs as delimiters.
-export SYSTEM_LABEL=MacMini # Placeholder for system display name.
-export SYSTEM_NAME=MacMini # Placeholder for system name.
-export WORK_PATH=/tmp/downloads # Temporary location for processing of file downloads and installers.
+export SYSTEM_LABEL=iMac-dev # Placeholder for system display name.
+export SYSTEM_NAME=iMac-dev # Placeholder for system name.
+export WORK_PATH=~/downloads/osx # Temporary location for processing of file downloads and installers.
 
 # Ruby
 export MRI=2.3.1
@@ -31,7 +31,7 @@ export KNOX_APP_NAME=Knox.app
 export KNOX_APP_URL="https://d13itkw33a7sus.cloudfront.net/dist/K/Knox-2.3.2.zip"
 
 export ITERM_APP_NAME=iTerm.app
-export ITERM_APP_URL="https://iterm2.com/downloads/stable/iTerm2-2_1_4.zip"
+export ITERM_APP_URL="https://iterm2.com/downloads/stable/iTerm2-3_0_4.zip"
 
 export VIM_EXTENSION_ROOT="$HOME/.vim/bundle"
 export VIM_PATHOGEN_EXTENSION_PATH="$HOME/.vim/autoload/pathogen.vim"
@@ -56,7 +56,7 @@ export VIM_RAILS_EXTENSION_PATH="$VIM_EXTENSION_ROOT/vim-rails"
 export VIM_RAILS_EXTENSION_URL="git://github.com/tpope/vim-rails.git"
 
 export SUBLIME_TEXT_APP_NAME="Sublime Text.app"
-export SUBLIME_TEXT_APP_URL="https://download.sublimetext.com/Sublime%20Text%20Build%203103.dmg"
+export SUBLIME_TEXT_APP_URL="https://download.sublimetext.com/Sublime%20Text%20Build%3114.dmg"
 
 export SUBLIME_TEXT_EXTENSION_ROOT="$HOME/Library/Application Support/Sublime Text 3/Packages"
 export GIT_GUTTER_EXTENSION_PATH="$SUBLIME_TEXT_EXTENSION_ROOT/GitGutter"
@@ -192,7 +192,7 @@ export PSEQUEL_APP_NAME=PSequel.app
 export PSEQUEL_APP_URL="http://www.psequel.com/download?version=latest"
 
 export CHEATSHEET_APP_NAME=CheatSheet.app
-export CHEATSHEET_APP_URL="http://mediaatelier.com/CheatSheet/CheatSheet_1.2.3.zip"
+export CHEATSHEET_APP_URL="http://mediaatelier.com/CheatSheet/CheatSheet_1.2.5.zip"
 
 export OPEN_OFFICE_APP_NAME=OpenOffice.app
 export OPEN_OFFICE_APP_URL="https://downloads.sourceforge.net/project/openofficeorg.mirror/4.1.2/binaries/en-US/Apache_OpenOffice_4.1.2_MacOS_x86-64_install_en-US.dmg"
@@ -235,3 +235,17 @@ export KSDIFF_APP_URL="https://updates.blackpixel.com/latest?app=ksdiff"
 
 export HAND_BRAKE_APP_NAME="HandBrake.app"
 export HAND_BRAKE_APP_URL="http://handbrake.fr/rotation.php?file=HandBrake-0.10.5-MacOSX.6_GUI_x86_64.dmg"
+
+export SEQUEL_PRO_APP_NAME="Sequel Pro.app"
+export SEQUEL_PRO_APP_URL="https://github.com/sequelpro/sequelpro/releases/download/release-1.1.2/sequel-pro-1.1.2.dmg"
+
+export SPECTACLE_APP_NAME="Spectacle.app"
+export SPECTABLEAPP_URL="https://s3.amazonaws.com/spectacle/downloads/Spectacle+1.0.6.zip"
+
+export CODEKIT_APP_NAME="CodeKit.app"
+export CODEKIT_URL="http://incident57.com/codekit/files/codekit-19127.zip"
+
+export GASMASK_APP_NAME="Gas Mask.app"
+export GASMASK_APP_URL="http://gmask.clockwise.ee/files/gas_mask_0.8.3.zip"
+
+

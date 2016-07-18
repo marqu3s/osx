@@ -114,3 +114,17 @@ install_zip_app "$CHEATSHEET_APP_URL" "$CHEATSHEET_APP_NAME"
 
 # HandBrake
 #install_dmg_app "$HAND_BRAKE_APP_URL" "HandBrake-0.10.5-MacOSX.6_GUI_x86_64" "$HAND_BRAKE_APP_NAME"
+
+# Sequel Pro
+install_dmg_app "$SEQUEL_PRO_APP_URL" "Sequel Pro 1.1.2" "$SEQUEL_PRO_APP_NAME"
+
+# Spectacle
+install_zip_app "$SPECTACLE_APP_URL" "$SPECTACLE_APP_NAME"
+
+# Spectacle
+install_zip_app "$CODEKIT_APP_URL" "$CODEKIT_APP_NAME"
+
+# Gas Mask - Hosts File Editor
+install_zip_app "$GASMASK_APP_URL" "GASMASK_APP_NAME"
+
+

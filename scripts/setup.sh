@@ -7,7 +7,7 @@
 # sudo bash -c "printf '/usr/local/bin/bash\n' >> /etc/shells"
 
 # Bash Completion
-chsh -s /usr/local/bin/bash
+#chsh -s /usr/local/bin/bash
 
 # Ruby
 #printf "%s\n" "---" > "$HOME/.gemrc"

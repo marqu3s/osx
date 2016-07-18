@@ -11,6 +11,9 @@ if ! command -v brew > /dev/null; then
   printf "export PATH=\"/usr/local/bin:$PATH\"\n" >> $HOME/.bash_profile
 fi
 
+# Tap Versions
+brew tap homebrew/versions
+
 # Readline
 # brew install readline
 
@@ -132,8 +135,7 @@ fi
 # brew install gifsicle
 
 # Node
-brew tap homebrew/versions
-brew install homebrew/versions/node4-lts
+brew install homebrew/versions/node5
 
 # Elm
 # brew install elm
