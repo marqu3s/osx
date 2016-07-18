@@ -228,7 +228,7 @@ export CARBON_COPY_CLONER_APP_NAME="Carbon Copy Cloner.app"
 export CARBON_COPY_CLONER_APP_URL="https://70dd08a0984b0022574d-8064f6cbda3d6f2abd1c53b8bc16b17e.ssl.cf5.rackcdn.com/ccc-4.1.7.4285.zip"
 
 export QUICK_LOOK_PLAIN_TEXT_APP_NAME="QLStephen.qlgenerator"
-export QUICK_LOOK_PLAIN_TEXT_APP_URL="https://github.com/downloads/whomwah/qlstephen/QLStephen.qlgenerator.zip"
+export QUICK_LOOK_PLAIN_TEXT_APP_URL="https://github.com/whomwah/qlstephen/releases/download/1.4.3/QLStephen.qlgenerator.1.4.3.zip"
 
 export KSDIFF_APP_NAME="ksdiff"
 export KSDIFF_APP_URL="https://updates.blackpixel.com/latest?app=ksdiff"
@@ -240,10 +240,10 @@ export SEQUEL_PRO_APP_NAME="Sequel Pro.app"
 export SEQUEL_PRO_APP_URL="https://github.com/sequelpro/sequelpro/releases/download/release-1.1.2/sequel-pro-1.1.2.dmg"
 
 export SPECTACLE_APP_NAME="Spectacle.app"
-export SPECTABLEAPP_URL="https://s3.amazonaws.com/spectacle/downloads/Spectacle+1.0.6.zip"
+export SPECTABLE_APP_URL="https://s3.amazonaws.com/spectacle/downloads/Spectacle+1.0.6.zip"
 
 export CODEKIT_APP_NAME="CodeKit.app"
-export CODEKIT_URL="http://incident57.com/codekit/files/codekit-19127.zip"
+export CODEKIT_APP_URL="http://incident57.com/codekit/files/codekit-19127.zip"
 
 export GASMASK_APP_NAME="Gas Mask.app"
 export GASMASK_APP_URL="http://gmask.clockwise.ee/files/gas_mask_0.8.3.zip"

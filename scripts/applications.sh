@@ -17,7 +17,7 @@ install_zip_app "$ITERM_APP_URL" "$ITERM_APP_NAME"
 install_dmg_app "$SUBLIME_TEXT_APP_URL" "Sublime Text" "$SUBLIME_TEXT_APP_NAME"
 
 # Sublime Text URL Handler
-install_zip_app "$SUBLIME_URL_HANDLER_APP_URL" "$SUBLIME_URL_HANDLER_APP_NAME"
+# install_zip_app "$SUBLIME_URL_HANDLER_APP_URL" "$SUBLIME_URL_HANDLER_APP_NAME"
 
 # Alfred
 #install_zip_app "$ALFRED_APP_URL" "$ALFRED_APP_NAME"
